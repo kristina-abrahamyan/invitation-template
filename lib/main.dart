@@ -32,7 +32,7 @@ class _InvitationPageState extends State<InvitationPage> {
     super.initState();
     _controller = WebViewController()
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
-      ..loadRequest(Uri.parse('https://YOUR-FIREBASE-APP.web.app')); // <-- change later
+      ..loadRequest(Uri.parse('https://invitation-template-84c37.web.app/')); // <-- change later
   }
 
   @override
